@@ -87,6 +87,6 @@ section{
     margin-left:5%;
     margin-right:5%;
     padding-left: 15px;
-    border:2px solid rgba(79, 117, 79, 0.363);
+    border-left:10px solid rgba(79, 117, 79, 0.897);
     border-radius: 5%;
 }

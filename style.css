@@ -12,6 +12,10 @@ h1{
     color:orange;
 }
 
+section{
+    margin-bottom: 150px;
+}
+
 .header{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -36,5 +40,16 @@ h1{
     border-radius: 7px;
     color: white;
     font-weight:700;
+
+}
+
+.dream_bg{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.link_button_resume{
 
 }

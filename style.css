@@ -4,4 +4,34 @@ body{
 
 h1{
     font-size: 50px;
+    
+}
+
+.orange-color{
+    color:orange;
+}
+
+.header{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    padding-left:10%;
+
+}
+
+.half-width img{
+    width:80%;
+}
+
+.link_button{
+    text-decoration: none;
+    /* background-color:orange; */
+    background-image:linear-gradient(orange,tomato);
+   
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: white;
+    font-weight:700;
+
 }

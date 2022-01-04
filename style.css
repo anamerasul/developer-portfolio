@@ -104,3 +104,11 @@ section{
     border-left: 7px solid;
     border-radius: 5%;
 }
+
+.footer-part p{
+    text-align: center;
+    font-size:20px;
+    color:rgb(99, 99, 99);
+
+}
+

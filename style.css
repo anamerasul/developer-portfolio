@@ -16,14 +16,18 @@ section{
     margin-bottom: 150px;
 }
 
-.header{
+.flexible-container{
     display: flex;
+}
+
+.header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .half-width{
     width:50%;
     padding-left:10%;
+  
 
 }
 
@@ -44,7 +48,6 @@ section{
 }
 
 .dream_bg{
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
@@ -52,4 +55,38 @@ section{
 
 .link_button_resume{
 
+}
+
+.experience_area{
+   
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+   
+    
+}
+
+.experience_area .flexible-container h2{
+    margin:20px 0px 0px 0px;
+    color:rgb(58, 72, 151);
+    
+}
+
+.experience_area .flexible-container h3{
+    color:rgb(212, 142, 12);
+}
+
+/* .experience_area .flexible-container .half-width{
+    box-shadow: 10px 10px yellowgreen;
+}  */
+
+
+.experience_item{
+    box-shadow: 10px 10px 40px grey;
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left: 15px;
+    border:2px solid rgba(79, 117, 79, 0.363);
+    border-radius: 5%;
 }
